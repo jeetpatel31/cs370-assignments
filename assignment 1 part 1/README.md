@@ -1,10 +1,10 @@
 Name of the assignment : Assignment 1 Part 1 
 
-============================================================================================================
+================================================
 
 Date of submission : 1/28/2024
 
-============================================================================================================
+================================================
 
 Instructions on how to run the code : 
 
@@ -12,7 +12,7 @@ For Problem 1, ensure your environment has Python with numpy, matplotlib, and sc
 
 For Problem 2, First make sure you have Python installed, along with the numpy and matplotlib libraries - you can install them using pip if you don't have them already. Then open the Python script in an IDE like Visual Studio Code or a basic text editor. Run the script, and it will generate a plot.png image file in the same folder showing a static projection of the 3D Gaussian vectors.
 
-============================================================================================================
+================================================
 
 Instructions on how to run any tests (if applicable):
 
@@ -27,6 +27,6 @@ Test Cases: For Problem 2, tests could involve checking the accuracy of the Sing
 
 Execution: Similar to Problem 1, execute these test functions within your Python environment and review the results to ensure the SVD and projection are performed correctly.
 
-============================================================================================================
+================================================
 
 Instructions on how to run any notebook (if applicable) : N/A
