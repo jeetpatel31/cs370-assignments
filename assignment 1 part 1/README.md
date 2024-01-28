@@ -1,8 +1,8 @@
-Name of the assignment
+Name of the assignment : Assignment 1 Part 1 
 
 ============================================================================================================
 
-Date of submission
+Date of submission : 1/28/2024
 
 ============================================================================================================
 
@@ -10,7 +10,7 @@ Instructions on how to run the code :
 
 For Problem 1, ensure your environment has Python with numpy, matplotlib, and scipy. Run the script (saved as a .py file) in your Python environment. The script generates a plot of a bivariate Gaussian distribution with contours and sampled points.
 
-For Problem 2, Python with numpy and matplotlib is required. Execute the script in a Python environment. It simulates 3D Gaussian vectors, projects them onto a 2D plane using SVD, and displays the projection in a plot.
+For Problem 2, First make sure you have Python installed, along with the numpy and matplotlib libraries - you can install them using pip if you don't have them already. Then open the Python script in an IDE like Visual Studio Code or a basic text editor. Run the script, and it will generate a plot.png image file in the same folder showing a static projection of the 3D Gaussian vectors.
 
 ============================================================================================================
 
@@ -29,4 +29,4 @@ Execution: Similar to Problem 1, execute these test functions within your Python
 
 ============================================================================================================
 
-Instructions on how to run any notebook (if applicable)
+Instructions on how to run any notebook (if applicable) : N/A
