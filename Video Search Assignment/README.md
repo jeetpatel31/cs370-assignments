@@ -19,8 +19,11 @@ Instructions on how to run the code :
 Step 1: Video library (10 points)
 = 
 Install the required libraries by running pip install pytube youtube_transcript_api in your terminal or command prompt
+
 Save the code to a Python file, for example, download_youtube.py
+
 Run the code by opening your terminal or command prompt, navigating to the directory containing the saved file, and executing python download_youtube.py
+
 The code will create a directory named downloaded_videos (if it doesn't already exist), download the highest resolution streams of the videos specified by their IDs in the main function into this directory, and attempt to download their transcripts as text files
 
 Step 2: Video indexing pipeline (90 points)
