@@ -6,7 +6,7 @@ Date of submission : 03/03/2024
 
 ================================================
 
-JUST WANTED TO PUT THIS OUT HERE AT THE BEGINNING:
+JUST WANTED TO PUT THIS OUT HERE AT THE BEGINNING: So please open the video-search.ipynb everything is there.
 
 I wanted to update you on my progress with the project, specifically regarding the setup of Docker and PostgreSQL. Unfortunately, I encountered significant challenges in getting them to work properly. However, I've managed to find a workaround that I believe will suffice for the time being.
 
