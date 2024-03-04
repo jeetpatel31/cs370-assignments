@@ -18,20 +18,28 @@ Instructions on how to run the code :
 
 Step 1: Video library (10 points)
 = 
-Ensure you have Python installed on your machine.
-Install the required libraries by running pip install pytube youtube_transcript_api in your terminal or command prompt.
-Save the code to a Python file, for example, download_youtube.py.
-Run the code by opening your terminal or command prompt, navigating to the directory containing the saved file, and executing python download_youtube.py. The code will create a directory named downloaded_videos (if it doesn't already exist), download the highest resolution streams of the videos specified by their IDs in the main function into this directory, and attempt to download their transcripts as text files.
+Install the required libraries by running pip install pytube youtube_transcript_api in your terminal or command prompt
+Save the code to a Python file, for example, download_youtube.py
+Run the code by opening your terminal or command prompt, navigating to the directory containing the saved file, and executing python download_youtube.py
+The code will create a directory named downloaded_videos (if it doesn't already exist), download the highest resolution streams of the videos specified by their IDs in the main function into this directory, and attempt to download their transcripts as text files
 
 Step 2: Video indexing pipeline (90 points)
 
 2.1 Preprocess the video (15 points)
 = 
-Ensure Python is installed on your machine.
-Install the required Python packages by running pip install opencv-python-headless numpy matplotlib in your terminal or command prompt. Note: opencv-python-headless is used instead of opencv-python to avoid unnecessary GUI dependencies for this headless processing script.
-Save the code to a Python file, for example, video_process_display.py.
-Before running the code, ensure you have a video file available in the same directory as your script or provide the absolute path to the video file in the video_src variable.
-Run the script by opening your terminal or command prompt, navigating to the directory containing your Python file, and executing python video_process_display.py. The script will display processed video frames one by one: the original frame, resized frame, RGB converted frame, and normalized frame, cycling through every step frames until the end of the video.
+Initiate installation protocols for required Python packages:
+Execute "pip install opencv-python-headless numpy matplotlib" in your terminal matrix
+Before activation, ensure video file matrix is present in same directory as script, or provide absolute path to video file matrix in video_src variable
+Activate script by:
+Accessing terminal matrix
+Navigating to directory containing Python file receptacle
+Executing "python video_process_display.py"
+Script will display processed video frame matrices one by one:
+Original frame matrix
+Resized frame matrix
+RGB converted frame matrix
+Normalized frame matrix
+Cycling will continue through every step frames until termination of video matrix
 
 2.2 Detecting objects (25 points)
 =
@@ -54,16 +62,19 @@ To test the functionality, check the deconstructed and reconstructed_with_gaps d
 Instructions on how to run any tests (if applicable):
 
 Step 1: Video library (10 points)
-= if you need to test its functionality, you can manually verify that the videos and their transcripts are correctly downloaded to the downloaded_videos folder.
+= 
+if you need to test its functionality, you can manually verify that the videos and their transcripts are correctly downloaded to the downloaded_videos folder.
 
 Step 2: Video indexing pipeline (90 points)
 
 2.1 Preprocess the video (15 points)
-= To test its functionality, you could manually verify that it processes and displays frames as described, by observing the output for each frame processed. To further ensure it's working correctly, you might modify the parameters like newSize and step to see the effects on the output, or try it with different video files to confirm it works across various video formats and resolutions.
+= 
+To test its functionality, you could manually verify that it processes and displays frames as described, by observing the output for each frame processed. To further ensure it's working correctly, you might modify the parameters like newSize and step to see the effects on the output, or try it with different video files to confirm it works across various video formats and resolutions.
 
 
 2.2 Detecting objects (25 points)
-= To test the code, you could verify the output by checking the detected_objects directory for saved images of detected objects and reviewing the detections.csv file for accuracy and completeness of the detection data. Additionally, you might adjust the skip_frames parameter to process more or fewer frames and observe the impact on detection performance and processing time.
+= 
+To test the code, you could verify the output by checking the detected_objects directory for saved images of detected objects and reviewing the detections.csv file for accuracy and completeness of the detection data. Additionally, you might adjust the skip_frames parameter to process more or fewer frames and observe the impact on detection performance and processing time.
 
 2.3 Embedding model (30 points)
 =
