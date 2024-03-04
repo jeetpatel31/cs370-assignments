@@ -98,6 +98,7 @@ To test the code, you could verify the output by checking the detected_objects d
 2.3 Embedding model (30 points)
 =
 Test teh effectiveness by comparing the original images in the detected_objects directory with their processed versions in the deconstructed and reconstructed_with_gaps directories, ensuring the images have been appropriately shuffled and reconstructed as described.
+
 ================================================
 
 Instructions on how to run any notebook (if applicable) : N/A
