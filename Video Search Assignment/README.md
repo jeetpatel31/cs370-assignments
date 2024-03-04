@@ -32,32 +32,48 @@ Step 2: Video indexing pipeline (90 points)
 = 
 Initiate installation protocols for required Python packages:
 Execute "pip install opencv-python-headless numpy matplotlib" in your terminal matrix
+
 Before activation, ensure video file matrix is present in same directory as script, or provide absolute path to video file matrix in video_src variable
+
 Activate script by:
 Accessing terminal matrix
+
 Navigating to directory containing Python file receptacle
+
 Executing "python video_process_display.py"
+
 Script will display processed video frame matrices one by one:
+
 Original frame matrix
+
 Resized frame matrix
+
 RGB converted frame matrix
+
 Normalized frame matrix
+
 Cycling will continue through every step frames until termination of video matrix
 
 2.2 Detecting objects (25 points)
 =
-Ensure Python is installed on your system along with the necessary libraries. Install PyTorch, torchvision, OpenCV (cv2), Pandas, and Numpy by running pip install torch torchvision opencv-python pandas numpy in your command line or terminal.
-Save the code to a Python script file, for example, object_detection.py.
+necessary libraries. Install PyTorch, torchvision, OpenCV (cv2), Pandas, and Numpy by running pip install torch torchvision opencv-python pandas numpy in your command line or terminal.
+
 The code assumes you have a video file named test2.mp4 in your working directory. You can change the video_path variable in the process_video function call at the end of the script to point to the path of your video file.
+
 Run the script by executing python object_detection.py in your terminal or command line. The script processes the video, detects objects frame by frame (skipping a specified number of frames for efficiency), saves images of detected objects in a directory named detected_objects, and finally, outputs a CSV file named detections.csv containing details of the detected objects.
 
 2.3 Embedding model (30 points)
 =
-Ensure you have Python installed on your system along with the necessary libraries. Install the Python Imaging Library (Pillow) and NumPy by running pip install Pillow numpy in your command line or terminal.
-Save the code to a Python script file, for example, image_deconstruction.py.
+Install the Python Imaging Library (Pillow) and NumPy by running pip install Pillow numpy in your command line or terminal.
+
 Before running the script, create a directory named detected_objects in the same directory as your script and populate it with the images you want to process. The script is set to read images from this directory.
-Run the script by executing python image_deconstruction.py in your terminal or command line. The script will process each image in the detected_objects directory, creating deconstructed and reconstructed versions. The deconstructed images will be saved in a new directory named deconstructed, and the reconstructed images (with gaps between the segments) will be saved in another new directory named reconstructed_with_gaps.
-To test the functionality, check the deconstructed and reconstructed_with_gaps directories after running the script to ensure the images have been processed and saved correctly. Each original image will have two new versions: one where its 3x3 grid has been randomly shuffled and saved in the deconstructed directory, and another where the original grid is reconstructed with gaps between segments, saved in the reconstructed_with_gaps directory.
+
+Run the script by executing python image_deconstruction.py in your terminal or command line. The script will process each image in the detected_objects directory, creating deconstructed and reconstructed versions. 
+
+The deconstructed images will be saved in a new directory named deconstructed, and the reconstructed images (with gaps between the segments) will be saved in another new directory named reconstructed_with_gaps.
+To test the functionality, check the deconstructed and reconstructed_with_gaps directories after running the script to ensure the images have been processed and saved correctly.
+
+Each original image will have two new versions: one where its 3x3 grid has been randomly shuffled and saved in the deconstructed directory, and another where the original grid is reconstructed with gaps between segments, saved in the reconstructed_with_gaps directory.
 
 
 ================================================
