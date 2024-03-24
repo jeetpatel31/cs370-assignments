@@ -6,8 +6,7 @@ Date of submission : 03/24/2024
 
 ================================================
 
-Instructions on how to run the code : N/A
-Setting up the Env and QGIS
+Instructions on how to run the code : N/A \nSetting up the Env and QGIS
 ================================================
 
 Instructions on how to run any tests (if applicable): N/A
