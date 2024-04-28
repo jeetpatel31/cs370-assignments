@@ -22,6 +22,8 @@ Click on the "Upload your tile image" button to select and upload the image.
 The application will display the original image, probability map, and segmented image.
 You can then visually inspect the results to evaluate the performance of the sidewalk segmentation.
 
+![alt text](image.png)
+
 ================================================
 
 Instructions on how to run any notebook (if applicable) :
